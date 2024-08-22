@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rinterio</title>
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/304347e730.js" crossorigin="anonymous"></script>
+  <!-- Daily Ui -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>  
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            clifford: '#da373d',
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body>
+<!-- Header Section -->
+   <header class="mx-2 my-auto md:m-auto lg:mx-14 lg:my-4">
+    <!-- NavBar -->
+    <div class="navbar bg-base-100">
+      <div class="navbar-start">
+        
+        <!-- icon -->
+         <div class="h-8 w-8 p-1 bg-lime-300 rounded-full text-center -rotate-45">
+          <i class="fa-solid fa-arrow-right"></i>
+         </div>
+         <!-- Nav Header name -->
+        <a class="btn btn-ghost text-xl">Rinterio</a>
+      </div>
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-1">
+          <li><a>Item 1</a></li>
+          <li>
+            <details>
+              <summary>Parent</summary>
+              <ul class="p-2">
+                <li><a>Submenu 1</a></li>
+                <li><a>Submenu 2</a></li>
+              </ul>
+            </details>
+          </li>
+          <li><a>Item 3</a></li>
+        </ul>
+      </div>
+      <!-- Right side -->
+      <div class="navbar-end">
+        <a class="btn hidden">Button</a>
+        <!-- Phone Humberg-icon -->
+        <div class="lg:hidden">
+          <i class="fa-solid fa-bars"></i>
+      </div>
+    </div>
+    <!-- Banner -->
+   </header>
+<!-- Main Section -->
+  <main></main>
+<!-- Footer Section  -->
+  <footer></footer>
+</body>
+</html>
